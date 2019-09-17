@@ -1,0 +1,21 @@
+h1{
+    margin-top: 100px;
+}
+
+span{
+    margin: 10px;
+}
+
+.question{
+    text-align: center;
+}
+
+.container{
+    background-color: aquamarine;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+html, body{
+    background-image: url(../images/background-img.jpg)
+}
