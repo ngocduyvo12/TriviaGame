@@ -30,6 +30,11 @@ var answerValues = [
     "d"
 ]
 
+//empty array for storing checked answer:
+var checkedAnswer = [];
+//score count:
+var scoreCount = 0;
+//make sure the submit button can only be clicked once. until reset
 
 function createQuestions() {
     for (var i = 0; i < questions.questions.length; i++) {
@@ -43,8 +48,38 @@ function createQuestions() {
         }
         console.log("------------------")
 
-        
+
     }
 }
 
 createQuestions()
+
+//get value from checked answer when clicked on submit button
+
+function submitAnswer() {
+    for (var i = 0; i < nameArray.length; i++) {
+
+        
+        //cycle through the array to get the name for each respective answer group
+        var selected = document.getElementsByName(nameArray[i]);
+        console.log(selected)
+        for (var k = 0; k < nameArray.length; k++) {
+            if (selected[k].checked) {
+                // console.log(selected[k].value)
+                checkedAnswer.push(selected[k].value)
+            }
+        }
+        // console.log(correctAnswers)
+        // for (var i = 0; i < correctAnswers.length; i++)
+        if (checkedAnswer[i] === correctAnswers[i]) {
+            scoreCount++;
+        }
+    }
+
+    
+    //return scoreCount
+    console.log(scoreCount)
+}
+
+
+$(document).on("click", "#submit", submitAnswer)
