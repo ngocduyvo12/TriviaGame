@@ -109,7 +109,9 @@ $(".startButton").on("click", function () {
             console.log(nameArray[i])
             for (var k = 0; k < 4; k++) {
                 var placeHolder = Object.values(questions)[i + 1][k];
-                console.log(Object.values(questions)[i + 1][k])
+
+                // console.log(Object.values(questions)[i + 1][k])
+
                 $("#formBody").append(`<span><label><input type="radio" name="${nameArray[i]}"value="${answerValues[k]}"/>${placeHolder}</label></span>`)
             }
             console.log("------------------")
