@@ -106,7 +106,9 @@ $(".startButton").on("click", function () {
             // console.log(questions.questions[i])
 
             $("#formBody").append(`<div class="question"><h3>${questions.questions[i]}</h3><div>`)
-            console.log(nameArray[i])
+
+            // console.log(nameArray[i])
+            
             for (var k = 0; k < 4; k++) {
                 var placeHolder = Object.values(questions)[i + 1][k];
 
