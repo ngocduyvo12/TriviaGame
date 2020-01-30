@@ -108,7 +108,7 @@ $(".startButton").on("click", function () {
             $("#formBody").append(`<div class="question"><h3>${questions.questions[i]}</h3><div>`)
 
             // console.log(nameArray[i])
-            
+
             for (var k = 0; k < 4; k++) {
                 var placeHolder = Object.values(questions)[i + 1][k];
 
@@ -116,7 +116,7 @@ $(".startButton").on("click", function () {
 
                 $("#formBody").append(`<span><label><input type="radio" name="${nameArray[i]}"value="${answerValues[k]}"/>${placeHolder}</label></span>`)
             }
-            console.log("------------------")
+            // console.log("------------------")
         }
     }
 
