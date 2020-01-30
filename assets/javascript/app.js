@@ -134,7 +134,8 @@ function submitAnswer() {
     for (var i = 0; i < nameArray.length; i++) {
         //cycle through the array to get the name for each respective answer group
         var selected = document.getElementsByName(nameArray[i]);
-        console.log(selected)
+
+        // console.log(selected)
 
         //go through each answer for each question and checked to see if an answer was selected
         for (var k = 0; k < 4; k++) {
