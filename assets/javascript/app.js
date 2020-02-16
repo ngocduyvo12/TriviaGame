@@ -54,6 +54,7 @@ var questions = {
         "Supreme Leader Snoke",
         "Amilyn Holdo"
     ],
+    //answer array for question 7
     q7Answer: [
         "Brain",
         "Heart", //b
