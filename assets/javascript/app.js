@@ -26,6 +26,7 @@ var questions = {
         "No one, the matrix is real",
         "Quentin Tarantino"
     ],
+    // answer array for question 2
     q3Answer: [
         "YOU SHALL NOT PASS!",
         "Samwise Gamgee",
