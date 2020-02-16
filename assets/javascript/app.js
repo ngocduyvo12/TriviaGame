@@ -40,6 +40,7 @@ var questions = {
         "Space Hulk",
         "He has a ship?"
     ],
+    //answer array for question 5
     q5Answer: [
         "1", 
         "3",
