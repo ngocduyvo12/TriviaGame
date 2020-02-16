@@ -19,6 +19,7 @@ var questions = {
         "Agent Smith",
         "Keanu was not in this movie"
     ],
+    // answer array for question 2
     q2Answer: [
         "John Cena",
         "The Wachowski Brothers", //b
