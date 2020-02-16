@@ -26,13 +26,14 @@ var questions = {
         "No one, the matrix is real",
         "Quentin Tarantino"
     ],
-    // answer array for question 2
+    // answer array for question 3
     q3Answer: [
         "YOU SHALL NOT PASS!",
         "Samwise Gamgee",
         "Legolas",
         "Frodo Baggins"
     ], //d
+    // answer array for question 4
     q4Answer: [
         "The Enterprise", //a
         "Millanium Falcon",
