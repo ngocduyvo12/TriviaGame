@@ -47,6 +47,7 @@ var questions = {
         "6",
         "4" //d
     ],
+    //answer array for question 6
     q6Answer: [
         "Rey",
         "Padme",
