@@ -12,6 +12,7 @@ var questions = {
         "In the movie 'the Wizard of Oz', what did the Scarecrow want from the wizard"
     ],
 
+    // answer array for question 1
     q1Answer: [
         "Neo", //a
         "Morpheus",
