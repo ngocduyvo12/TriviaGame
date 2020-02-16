@@ -1,6 +1,7 @@
 //question object. 
 //Update this each time a question is added
 var questions = {
+    // question arrays
     questions: [
         "What is the name of Keanu Reeves's character in the Matrix trilogy",
         "Who directed the Matrix Trilogy?",
